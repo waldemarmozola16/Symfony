@@ -34,10 +34,7 @@ class ArticleController extends AbstractController
             'I ate a normal rock once. It did NOT taste like bacon!',
             'Woohooo! I\'m going on an all-asteroid diet!',
             'I like bacon too! Buy some from my site! bakisomebacon.com',
-            ];
-
-
-
+        ];
 
 
         return $this->render('article/show.html.twig', [
